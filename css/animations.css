@@ -35,6 +35,12 @@ cursor: pointer;
   color: white;
 }
 
+.main-content .contents .album-img:hover .btn-play{
+  cursor: pointer;
+  display: block;
+  background-color: rgba(0, 0, 0, .5);
+}
+
 /* Footer */
 .player-song span:hover, 
 .player-song img:hover,
