@@ -1,0 +1,39 @@
+/* Call To Action  */
+.cta .btn:hover {
+  cursor: pointer;
+  background: white;
+  color: #141922;
+}
+/* Aside bar */
+aside .top .logo-desktop:hover,
+aside .top .logo-mobile:hover
+ {
+  cursor: pointer;
+}
+
+aside .top li a:hover,
+aside .playlist span:hover,
+aside .playlist ul li:hover,
+aside .download-app:hover,
+aside .user h4:hover img {
+  cursor: pointer;
+  color: white;
+}
+
+aside .create-playlist:hover .btn{
+  cursor: pointer;
+  background-color: white
+}
+
+aside .download-app img:hover {
+cursor: pointer;
+}
+
+.player-song span:hover, 
+.player-song img:hover,
+.player-song h4:hover,
+.player-settings span:hover,
+.player-settings .volume-bar:hover{
+  cursor: pointer;
+  color: white;
+} 

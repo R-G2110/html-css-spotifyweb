@@ -1,0 +1,25 @@
+/* MEDIA QUERY */
+@media screen and (max-width: 600px) {
+  aside {
+    width: 50px;
+  }
+  .cta,
+  .main-content  {
+    width: calc(100% - 50px);
+  }
+
+  .logo-desktop {
+    display: none;
+  }
+
+  .logo-mobile {
+    display: block;
+  }
+
+  .playlist,
+  .download-app span,
+  .user h4 {
+    display: none;
+  }
+
+}

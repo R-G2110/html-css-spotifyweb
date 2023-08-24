@@ -11,6 +11,8 @@
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/breakpoint.css">
+  <link rel="stylesheet" href="css/animations.css">
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +23,9 @@
   <div id="main-wrapper">
 
     <main class="d-flex">
-      <div class="cta debug"></div>
+      <div class="cta">
+        <button class="btn">EFFETTUA  L'UPGRADE</button>
+      </div>
 
       <aside>
         <div class="top">
@@ -34,15 +38,15 @@
 
           <nav class="menu">
             <ul>
-              <li>
+              <li class="d-flex">
                 <img src="img/home.svg" alt="home">
                 <a href="#">Home</a>
               </li>
-              <li>
+              <li class="d-flex">
                 <img src="img/search.svg" alt="search">
                 <a href="#">Cerca</a>
               </li>
-              <li>
+              <li class="d-flex">
                 <img src="img/libreria.svg" alt="libreria">
                 <a href="#">La tua libreria</a>
               </li>
@@ -51,9 +55,11 @@
 
           <div class="playlist">
             <div class="playlist-top">
-              <h3>PLAYLIST</h3>
-              <button class="btn"><i class="fa-solid fa-plus"></i></button>
-              <span>Crea playlist</span>
+              <h4>PLAYLIST</h4>
+              <div class="create-playlist">
+                <button class="btn"><i class="fa-solid fa-plus"></i></button>
+                <span>Crea playlist</span>
+              </div>
             </div>
             <div class="playlist-list">
               <ul>
@@ -69,18 +75,18 @@
           </div>
         </div>
         <div class="bottom">
-          <div class="download-app">
+          <div class="download-app d-flex">
             <img src="img/download.svg" alt="download">
             <span>Installa app</span>
           </div>
-          <div class="user">
+          <div class="user d-flex">
             <img src="img/profile.svg" alt="profile">
             <h4>Argel</h4>
           </div>
         </div>
       </aside>
 
-      <div class="main-content debug">
+      <div class="main-content">
       </div>
     </main>
 
@@ -122,9 +128,9 @@
         </div>
 
         <div class="player-settings d-flex h-100">
-          <i class="fa-solid fa-list"></i>
-          <i class="fa-solid fa-tv"></i>
-          <i class="fa-solid fa-volume-high"></i>
+          <span><i class="fa-solid fa-list"></i></span>
+          <span><i class="fa-solid fa-tv"></i></span>
+          <span><i class="fa-solid fa-volume-high"></i></span>
           <div class="col volume-bar"></div>
         </div>
       </section>
