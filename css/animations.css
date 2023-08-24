@@ -4,6 +4,7 @@
   background: white;
   color: #141922;
 }
+
 /* Aside bar */
 aside .top .logo-desktop:hover,
 aside .top .logo-mobile:hover
@@ -29,6 +30,12 @@ aside .download-app img:hover {
 cursor: pointer;
 }
 
+/* Main Content */
+.main-content ul li a:hover {
+  color: white;
+}
+
+/* Footer */
 .player-song span:hover, 
 .player-song img:hover,
 .player-song h4:hover,
