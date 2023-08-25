@@ -3,6 +3,7 @@
   cursor: pointer;
   background: white;
   color: #141922;
+  scale: 1.1;
 }
 
 /* Aside bar */
@@ -35,7 +36,8 @@ cursor: pointer;
   color: white;
 }
 
-.main-content .contents .album-img:hover .btn-play{
+.main-content .contents .album-img:hover .overlay,
+.main-content .contents .artist-img:hover .overlay {
   cursor: pointer;
   display: block;
   background-color: rgba(0, 0, 0, .5);
@@ -46,7 +48,16 @@ cursor: pointer;
 .player-song img:hover,
 .player-song h4:hover,
 .player-settings span:hover,
-.player-settings .volume-bar:hover{
+.player-settings .volume-bar:hover {
   cursor: pointer;
   color: white;
 } 
+
+.player-controls .shuffle,
+.player-controls .backward-step,
+.player-controls .play,
+.player-controls .forward-step,
+.player-controls .repeat {
+  cursor: pointer;
+  transform: scale(1.2);
+}
