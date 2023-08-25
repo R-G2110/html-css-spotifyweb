@@ -8,7 +8,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   color: white;
 }
 
@@ -35,6 +36,7 @@ img {
 }
 body {
   font-family: 'Montserrat';
+  font-size: 12px;
 }
 
 #main-wrapper {
@@ -183,7 +185,7 @@ aside .user img {
 }
 
 .main-content .contents {
-  margin: 20px 10px;
+  margin: 50px 10px;
 }
 
 .main-content .contents .row {
@@ -200,8 +202,8 @@ aside .user img {
 
 .main-content .contents .album-img,
 .main-content .contents .artist-img {
-  width: 170px;
-  height: 170px;
+  width: 150px;
+  /* height: 150px; */
   margin-bottom: 10px;
   object-fit: cover;
   position: relative;
